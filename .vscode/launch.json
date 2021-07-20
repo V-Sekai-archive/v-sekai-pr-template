@@ -10,7 +10,7 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "args": ["--single-window"],
-            "program":  "${workspaceFolder}/godot/bin/godot.linuxbsd.opt.tools.64",
+            "program":  "${workspaceFolder}/godot/bin/godot.linuxbsd.opt.tools.64.llvms",
             "visualizerFile": "${workspaceFolder}/godot/platform/windows/godot.natvis",
             "preLaunchTask": "build linuxbsd",
         }
