@@ -12,7 +12,7 @@
             "args": ["--single-window"],
             "program":  "${workspaceFolder}/godot/bin/godot.windows.opt.tools.64",
             "visualizerFile": "${workspaceFolder}/godot/platform/windows/godot.natvis",
-            "preLaunchTask": "build windows",
+            "preLaunchTask": "build linuxbsd",
         }
     ]
 }
