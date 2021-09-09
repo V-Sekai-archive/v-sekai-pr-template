@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "args": ["--single-window"],
+            "args": ["--path", "../multi_uv_set_test", "-e"],
             "program":  "${workspaceFolder}/godot/bin/godot.linuxbsd.opt.tools.64.llvms",
             "visualizerFile": "${workspaceFolder}/godot/platform/windows/godot.natvis",
             "preLaunchTask": "build linuxbsd",
