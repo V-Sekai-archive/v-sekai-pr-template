@@ -16,7 +16,7 @@
         {
             "label": "build linuxbsd",
             "type": "shell",
-            "command": "scons -j34 platform=linuxbsd dev=yes werror=yes use_lld=yes use_llvm=yes use_static_cpp=yes use_asan=yes use_bsan=yes bits=64 deprecated=yes target=debug",
+            "command": "scons -j34 platform=linuxbsd dev=yes werror=yes use_lld=yes use_llvm=yes use_static_cpp=yes use_asan=yes use_bsan=yes bits=64 deprecated=yes target=release_debug",
             "options": {
                 "cwd": "${workspaceFolder}/godot"
             },
