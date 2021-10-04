@@ -10,9 +10,9 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "args": ["--path", "../dance", "-e"],
-            "program":  "${workspaceFolder}/godot/bin/godot.linuxbsd.opt.tools.64.llvms",
+            "program":  "${workspaceFolder}/godot/bin/godot.windows.opt.tools.64.llvms",
             "visualizerFile": "${workspaceFolder}/godot/platform/windows/godot.natvis",
-            "preLaunchTask": "build linuxbsd",
+            "preLaunchTask": "build windows",
         }
     ]
 }

@@ -14,9 +14,9 @@
             "group": "build"
         },
         {
-            "label": "build linuxbsd",
+            "label": "build windows",
             "type": "shell",
-            "command": "scons -j34 platform=linuxbsd dev=yes werror=yes use_lld=yes use_llvm=yes use_static_cpp=yes use_asan=yes use_bsan=yes bits=64 deprecated=yes target=release_debug",
+            "command": "scons -j34 platform=windows dev=yes werror=yes use_lld=yes use_llvm=yes use_static_cpp=yes use_asan=yes use_bsan=yes bits=64 deprecated=yes target=release_debug",
             "options": {
                 "cwd": "${workspaceFolder}/godot"
             },
@@ -29,9 +29,9 @@
             ]
         },
         {
-            "label": "build linuxbsd tools=no",
+            "label": "build windows tools=no",
             "type": "shell",
-            "command": "scons -j34 tools=no platform=linuxbsd dev=yes werror=yes use_lld=yes use_llvm=yes use_static_cpp=yes use_asan=yes use_bsan=yes bits=64 deprecated=yes target=release_debug",
+            "command": "scons -j34 tools=no platform=windows dev=yes werror=yes use_lld=yes use_llvm=yes use_static_cpp=yes use_asan=yes use_bsan=yes bits=64 deprecated=yes target=release_debug",
             "options": {
                 "cwd": "${workspaceFolder}/godot"
             },
