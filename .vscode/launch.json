@@ -6,11 +6,11 @@
     "configurations": [    
         {
             "name": "Launch",
-            "type": "cppdbg",
+            "type": "cppvsdbg",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "args": ["--path", "../dance", "-e"],
-            "program":  "${workspaceFolder}/godotbin/godot.windows.opt.tools.64.exe",
+            "args": ["--path", "avatar-well", "-e"],
+            "program":  "${workspaceFolder}/godot/bin/godot.windows.opt.tools.64.exe",
             "visualizerFile": "${workspaceFolder}/godot/platform/windows/godot.natvis",
             "preLaunchTask": "build windows",
         }
