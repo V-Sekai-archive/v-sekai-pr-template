@@ -1,18 +1,22 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [    
-        {
-            "name": "Launch",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "args": ["--path", "avatar-well", "-e"],
-            "program":  "${workspaceFolder}/godot/bin/godot.windows.opt.tools.64.exe",
-            "visualizerFile": "${workspaceFolder}/godot/platform/windows/godot.natvis",
-            "preLaunchTask": "build windows",
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--path",
+        "C:/Users/elee/Documents/godot-spatial-audio-project",
+        "-e"
+      ],
+      "program": "${workspaceFolder}/godot/bin/godot.windows.opt.tools.64",
+      "visualizerFile": "${workspaceFolder}/godot/platform/windows/godot.natvis",
+      "preLaunchTask": "build windows",
+    }
+  ]
 }
