@@ -11,7 +11,7 @@
       "cwd": "${workspaceFolder}",
       "args": [
         "--path",
-        "C:/Users/elee/Documents/godot-spatial-audio-project",
+        "avatar-well",
         "-e"
       ],
       "program": "${workspaceFolder}/godot/bin/godot.windows.opt.tools.64",
