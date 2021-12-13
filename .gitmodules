@@ -4,6 +4,6 @@
 [submodule "godot"]
 	path = godot
 	url = https://github.com/V-Sekai/godot.git
-[submodule "avatar-well"]
-	path = avatar-well
-	url = https://github.com/fire/avatar-wellness.git
+[submodule "godot-blender"]
+	path = godot-blender
+	url = https://github.com/V-Sekai/godot-blender.git
