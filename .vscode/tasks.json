@@ -6,9 +6,9 @@
     {
       "label": "build linuxbsd",
       "type": "shell",
-      "command": "scons",
+      "command": "scons-3",
       "args": [
-        "-j34",
+        "-j`nproc`",
         "platform=linuxbsd",
         "werror=no",
         "use_llvm=yes",
