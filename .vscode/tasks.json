@@ -24,6 +24,25 @@
         "cwd": "${workspaceFolder}/godot"
       },
       "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "build windows",
+      "type": "shell",
+      "command": "scons",
+      "args": [
+        "-j16",
+        "werror=no",
+        "use_llvm=yes",
+        "use_mingw=yes",
+        "dev=yes",
+        "bits=64",
+        "target=release_debug"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/godot"
+      },
+      "problemMatcher": [],
       "group": {
         "kind": "build",
         "isDefault": true
